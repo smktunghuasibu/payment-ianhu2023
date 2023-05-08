@@ -4,7 +4,7 @@ from tud_test_base import *
 
 def test_pay():
     try:
-        exist = os.path.exist("pay.py")
+        exist = os.path.exist("problempayment.py")
         assert exist == True
     except:
         SystemExit
